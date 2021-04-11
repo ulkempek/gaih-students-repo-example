@@ -1,0 +1,13 @@
+print("Hello Dear Customer, Welcome to YemekSepeti!")
+username="Ulkem"
+password="pekguzel123"
+username1=input("Please enter your username:")
+password1=input("Please enter your password:")
+if (username1 != username and password1 ==password):
+    print("The username is not correct")
+elif (username1 ==username and password1!=password):
+    print("The password is not correct")
+elif (username1 !=username and password1!=password):
+    print("The username and the password are not correct")
+else:
+    print("Congratulations! You logged in successfully.")
